@@ -1,0 +1,18 @@
+gradle
+plugins {
+    id 'java'
+}
+
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+}
+rootProject.name = 'demo-project
+java -cp target/demo-project-1.0-SNAPSHOT.jar com.example.App
+java -cp build/libs/demo-project-1.0-SNAPSHOT.jar.com example.App 
